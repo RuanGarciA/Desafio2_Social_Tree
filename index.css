@@ -1,0 +1,135 @@
+/*
+      Codigo em css 
+      Criado em :14/07/2022 
+      Autor: Ruanderson
+      Projeto 1 Social Tree da RocketSeat 
+*/ 
+
+:root { /*variaveis de cores*/
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+* { /*resetando as margens da pagina */
+    margin: 0;
+    padding: 10px;
+
+}
+
+
+
+html body{   /*essas configuraçoes pegam todo o documento*/
+  width: 100vw;
+  height: 100vh;
+  font-size: 0.8em;/*tamanho da fonte*/
+
+    display: grid;    /*pesquisar melhor*/
+    justify-content: center;/*centralizando com grid*/
+    align-content: center;
+
+    text-align: center; /*centralizar o texto*/
+
+    background-color: var(--body-bg-color);
+
+    font-family: 'Poppins'; /*so nao funciona no botao*/
+    font-style: normal;
+    font-weight: 600;
+    
+}
+
+main{  /*centralizando main*/
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.container-bg{
+  margin-top: 15px;
+}
+
+  .imgPerfil {
+    width: 200px;   /*tamanho*/
+    height: 200px;
+    margin: 2em;
+
+    border-radius: 100%; /*arredondamento*/
+
+    opacity: 95%;       /*clareando a foto*/
+  }
+
+  .bordaEspaco {  /* borda da foto */
+    width: 210px;
+    height: 210px;
+
+    box-sizing: border-box;
+    border: 3px solid; 
+    border-color: var(--purple);
+
+    border-radius: 100%;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logo {    /*classe dos logos que estao no footer*/
+    width: 24px; /*tamanho*/
+    height: 24px;
+  }
+
+  .botaoLinkInstagram {   /*nome clicavel*/
+    margin-top: 16px;
+    display: grid;
+    text-decoration: none;   /*tirando o underline*/
+
+    color: var(--purple);
+    height: 24px;
+    font-weight: 300;
+  }
+
+  a:hover{   /*gerando efeito quando o mause passa*/
+    text-decoration:underline;
+    color: purple;
+  }
+
+  .Link {  /*configurcoes dos links*/
+    text-decoration: none;
+
+    display: grid;
+    color: #BB99DD;
+      
+    width: 326px;
+    height: 49px;
+}
+
+  .botaoLink {  /*confg das caixas do link*/
+
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+    text-decoration: none;
+
+    display: grid;
+
+    box-sizing: border-box;
+    border: 2px solid #BB99DD;
+    color: var(--purple);
+    border-radius: 4px;
+
+    padding-top: 15px;
+
+    background-color: var(--body-bg-color);
+
+}
+
+footer{ /*confg da caixa rodape*/
+  padding: 15px;
+
+}
+
+.logo {/*espaço dos logos*/
+  padding: 10px;
+  opacity: 30%;
+
+
+}
